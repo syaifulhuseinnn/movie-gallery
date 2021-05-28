@@ -1,0 +1,13 @@
+.text-featured {
+  font-weight: 700;
+  color: #f71a2c;
+}
+
+.text-now-showing {
+  color: #ffffff;
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}

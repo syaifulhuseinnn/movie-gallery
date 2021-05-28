@@ -1,0 +1,33 @@
+html {
+  font-size: 16px;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #000000;
+}
+
+.bg-danger {
+  background-color: #f71a2c !important;
+}
+
+.border-danger {
+  background-color: #f71a2c !important;
+}
+
+.bg-secondary {
+  background-color: #1f1f1f !important;
+}
