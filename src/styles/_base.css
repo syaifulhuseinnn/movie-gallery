@@ -8,26 +8,69 @@ h2,
 h3,
 h4,
 h5,
-h6,
-p,
-ul {
+h6 {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 body {
   background-color: #000000;
+  color: #ffffff;
+}
+
+p,
+ul,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+dt,
+dd {
+  line-height: 30px;
 }
 
 .bg-danger {
   background-color: #f71a2c !important;
 }
 
-.border-danger {
+.badge-danger {
   background-color: #f71a2c !important;
+}
+
+.badge-purple,
+.btn-purple {
+  background-color: #6e43ff;
+}
+
+.text-purple {
+  color: #6e43ff !important;
 }
 
 .bg-secondary {
   background-color: #1f1f1f !important;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 10px #000000b9;
+}
+
+.border-danger {
+  border-color: #f71a2c !important;
+}
+
+input:focus,
+button:focus {
+  box-shadow: none !important;
+}
+
+.justify-content-evenly {
+  justify-content: space-evenly !important;
 }
